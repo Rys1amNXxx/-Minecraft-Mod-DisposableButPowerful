@@ -1,4 +1,4 @@
-package com.rysiamn.disposablebutpowerful;
+package com.rysiamn.disposablebutpowerful.Items;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
