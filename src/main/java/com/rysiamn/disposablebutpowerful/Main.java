@@ -24,6 +24,8 @@ public class Main {
     public static final RegistryObject<Item> ONE_TIME_KILL_SWORD = ITEMS.register("one_time_kill_sword",
             () -> new OneTimeKillSword(new Item.Properties().durability(1).rarity(Rarity.EPIC)));
 
+
+
     public Main() {
         var bus = FMLJavaModLoadingContext.get().getModEventBus();
         ITEMS.register(bus);
