@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
+import com.rysiamn.disposablebutpowerful.Items.OneTimeRangedPickaxe;
 
 
 @Mod(Main.MODID)
@@ -23,6 +24,9 @@ public class Main {
 
     public static final RegistryObject<Item> ONE_TIME_KILL_SWORD = ITEMS.register("one_time_kill_sword",
             () -> new OneTimeKillSword(new Item.Properties().durability(1).rarity(Rarity.EPIC)));
+
+    public static final RegistryObject<Item> ONE_TIME_RANGED_PICKAXE = ITEMS.register("one_time_ranged_pickaxe",
+            () -> new OneTimeRangedPickaxe(new Item.Properties().durability(1).rarity(Rarity.EPIC)));
 
 
 
