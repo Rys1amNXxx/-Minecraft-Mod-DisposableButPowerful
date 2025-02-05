@@ -5,9 +5,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-import static com.rysiamn.disposablebutpowerful.Main.MODID;
-import static com.rysiamn.disposablebutpowerful.Main.ONE_TIME_KILL_SWORD;
-import static com.rysiamn.disposablebutpowerful.Main.ONE_TIME_RANGED_PICKAXE;
+import static com.rysiamn.disposablebutpowerful.Main.*;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = MODID)
 public class EventListener {

@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.rysiamn.disposablebutpowerful.Items.OneTimeKillSword;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,8 +31,8 @@ public class Main {
 
 
 
-    public Main() {
-        var bus = FMLJavaModLoadingContext.get().getModEventBus();
+    public Main(FMLJavaModLoadingContext context) {
+        IEventBus bus = context.getModEventBus();
         ITEMS.register(bus);
 //        bus.register(Main.class);
     }
