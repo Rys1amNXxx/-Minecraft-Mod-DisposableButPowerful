@@ -44,6 +44,7 @@ public class ThunderArrowEntity extends Arrow {
                 lightning.moveTo(this.getX(), this.getY(), this.getZ());
                 serverLevel.addFreshEntity(lightning);
             }
+            this.discard();
         }
     }
 
