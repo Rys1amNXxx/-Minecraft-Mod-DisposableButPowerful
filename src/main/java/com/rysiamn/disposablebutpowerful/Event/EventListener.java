@@ -17,5 +17,8 @@ public class EventListener {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ONE_TIME_RANGED_PICKAXE);
         }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(THUNDER_ARROW_ITEM);
+        }
     }
 }
